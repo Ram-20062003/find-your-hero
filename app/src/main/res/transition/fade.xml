@@ -1,0 +1,9 @@
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:transitionOrdering="sequential">
+    <changeBounds/>
+    <explode android:fadingMode="fade_out" >
+        <targets>
+            <target android:targetId="@+id/action_image" />
+        </targets>
+    </explode>
+</transitionSet>
